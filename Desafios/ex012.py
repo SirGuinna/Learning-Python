@@ -1,4 +1,4 @@
 p = float(input('Digite o Preço do Produto: '))
-d = p * 0.05
+d = p * 5 / 100
 total = p - d
-print('Com desconto de 5%, fica por {} reais'.format(total))
+print('Com desconto de 5%, fica por {:.2f} reais'.format(total))
