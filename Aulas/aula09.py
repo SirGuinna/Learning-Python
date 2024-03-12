@@ -1,0 +1,13 @@
+frase = 'curso em vídeo python'
+print(frase[0])
+print(frase[3:13])
+print(frase.count('o'))
+print(frase.count('O'))
+print(frase.upper().count('O'))
+print(len(frase))
+print(frase.strip())
+print(frase.replace('Python', 'Android'))
+print('Curso' in frase)
+print(frase.title())
+print(frase.split())
+print(frase.capitalize())
