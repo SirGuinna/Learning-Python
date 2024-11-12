@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Monitoramento</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{AIzaSyApEPFjkFo65e0j67MgrLBDSae7ylRxkiE}}&libraries=places"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- BARRA DE PESQUISA -->
+    <input id="search-bar" type="text" placeholder="Procurar Veículos // Pontos de Interesse"/>
+        <!-- Lista de Sugestões da Barra de Pesquisa -->
+        <ul id="suggestions"></ul> 
+    
+    <div id="container">
+        <div id="map"></div>  <!-- Mapa na Tela -->
+        <div id="vehicle-list">
+            <ul id="vehicles">
+                <!-- A lista de viaturas será preenchida dinamicamente -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key={{AIzaSyApEPFjkFo65e0j67MgrLBDSae7ylRxkiE}}&callback=initMap" async defer></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
